@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "This Week in Gorilla"
+  name: "This Week in Sibukixxx"
 
 features:
   - icon: 📰

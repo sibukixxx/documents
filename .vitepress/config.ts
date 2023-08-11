@@ -39,14 +39,14 @@ function subItems(dir: string): DefaultTheme.SidebarItem[] {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/this-week-in-gorilla/",
-  title: "This Week in Gorilla",
-  description: "This Week in Gorilla",
+  base: "/note-sibukixxx/",
+  title: "Note sibukixxx",
+  description: "Note sibukixxx",
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/this-week-in-gorilla/logo.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/this-week-in-sibukixxx/logo.png' }],
     ["meta", { name: "twitter:card", content: "summary_large_image" }],
-    ["meta", { property: "og:site_name", content: "This Week in Gorilla" }],
-    ["meta", { property: "og:title", content: "This Week in Gorilla" }],
+    ["meta", { property: "og:site_name", content: "This Week in sibukixxx" }],
+    ["meta", { property: "og:title", content: "This Week in sibukixxx" }],
     ["meta", { property: "og:image", content: "https://i.gyazo.com/6331356f2874b0447a987b9bcfe4e033.png" }],
   ],
   lastUpdated: true,
@@ -101,7 +101,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/skanehira/this-week-in-gorilla/edit/main/:path'
+      pattern: 'https://github.com/skanehira/this-week-in-sibukixxx/edit/main/:path'
     },
   },
 });
